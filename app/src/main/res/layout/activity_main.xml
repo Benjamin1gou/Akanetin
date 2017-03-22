@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <ImageView
+        android:id="@+id/akanetin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/basic1"
+        android:scaleType="fitStart"
+        android:layout_marginLeft="200dp"
+        android:onClick="voiceOn"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:background="#99777777"
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        android:onClick="TextNone"
+        />
+
+    <TextView
+        android:id="@+id/akaneText"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ffffff"
+        android:text=""
+        android:textSize="25sp"
+        />
+
+
+</FrameLayout>
+

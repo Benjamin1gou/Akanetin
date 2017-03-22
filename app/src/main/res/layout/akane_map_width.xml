@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/nc71896"
+        android:scaleType="fitStart"
+        />
+
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:id="@+id/tvTitle"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/month"
+        android:text=""
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_gravity="right"
+        android:layout_marginTop="210dp"
+        android:textAlignment="center"
+        android:layout_marginRight="65dp"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/day"
+        android:text=""
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_gravity="right"
+        android:layout_marginTop="320dp"
+        android:textAlignment="center"
+        android:layout_marginRight="65dp"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/week"
+        android:text=""
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_gravity="right"
+        android:layout_marginTop="440dp"
+        android:layout_marginRight="58dp"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tenki1"
+        android:src="@drawable/tenki_hare"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="300dp"/>
+
+    a<TextView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:text=""
+        android:id="@+id/tenkiText"
+        android:textSize="100sp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="500dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tenki_hare"
+        android:id="@+id/tenki2"
+        android:layout_marginLeft="900dp"
+        android:layout_marginTop="300dp"/>
+
+
+    <WebView
+        android:layout_width="1000dp"
+        android:layout_height="700dp"
+        android:id="@+id/webView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="100dp"
+    />
+
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_marginTop="790dp"
+        android:layout_marginLeft="90dp"
+        android:onClick="delete"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/akanetin"
+        android:layout_width="160dp"
+        android:layout_height="350dp"
+        android:src="@drawable/basic1"
+        android:scaleType="fitStart"
+        android:onClick="voiceOn"
+        android:layout_gravity="right|bottom"
+        />
+
+
+</FrameLayout>
+
